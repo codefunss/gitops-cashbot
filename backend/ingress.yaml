@@ -6,11 +6,6 @@ metadata:
 spec:
   ingressClassName: nginx
 
-  tls:
-  - hosts:
-    - cashbot.funsdevops.com
-    secretName: tls-cashbot
-
   rules:
   - host: cashbot.funsdevops.com
     http:
